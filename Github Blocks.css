@@ -1,0 +1,40 @@
+img {
+    width: 200px;
+}
+
+h1 {
+    margin: 0px 0px 20px;
+}
+
+#Container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.Row-A, .Row-B, .Row-C {
+display: flex;
+margin: 20px;
+padding: 20px;
+justify-content: space-between;
+}
+
+.Row-A, .Row-C {
+    justify-content: space-around;
+}
+
+.Row-A {
+    background-color: lightskyblue;
+}
+
+.Row-B {
+    background-color: pink; 
+    justify-content: space-evenly;  
+}
+
+.Row-C {
+    background-color: white;
+ }
